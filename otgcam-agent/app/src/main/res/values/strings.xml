@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OTGCam Agent</string>
+
+    <!-- Setup screen -->
+    <string name="setup_title">Device Setup</string>
+    <string name="setup_subtitle">Enter your Telegram Bot credentials. These are stored encrypted on the device.</string>
+    <string name="hint_bot_token">Telegram Bot Token</string>
+    <string name="hint_chat_id">Telegram Chat ID</string>
+    <string name="hint_agent_id">Agent ID (e.g. agent01)</string>
+    <string name="error_fields_required">All fields are required.</string>
+
+    <!-- Buttons -->
+    <string name="btn_start_service">Start Service</string>
+    <string name="btn_stop_service">Stop Service</string>
+    <string name="btn_clear_log">Clear Log</string>
+    <string name="btn_save_continue">Save and Continue</string>
+    <string name="retry">Retry</string>
+
+    <!-- Status labels -->
+    <string name="status_camera_disconnected">Camera: Not connected</string>
+    <string name="status_camera_connected">Camera: Connected</string>
+    <string name="status_service_stopped">Service: Stopped</string>
+    <string name="status_service_running">Service: Running</string>
+    <string name="status_no_capture">Last capture: None</string>
+    <string name="status_no_upload">Last upload: None</string>
+
+    <!-- Permissions -->
+    <string name="perm_required_title">Permissions Required</string>
+    <string name="perm_label_camera">Camera — required to access the UVC camera</string>
+    <string name="perm_label_audio">Microphone — required for live audio calls</string>
+    <string name="perm_label_storage">Storage — required to save captured media</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">OTGCam Service</string>
+    <string name="notif_channel_desc">Foreground service keeping the UVC camera active</string>
+    <string name="notif_title">OTGCam Agent</string>
+    <string name="notif_text_starting">Starting…</string>
+    <string name="notif_action_capture">Capture Photo</string>
+</resources>
